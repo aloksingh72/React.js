@@ -79,7 +79,7 @@ let obj4 ={
 
 console.log(obj4);
 
-//modules
+//-->modules
 
 //we have to use the import keyword only inside the module if we try to access the import without creating a module it gives an error
 
