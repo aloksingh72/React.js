@@ -63,5 +63,43 @@ let{title2,rating:{rate}} = obj2;
 console.log(rate);
 
 
+// making a variable key for an object 
+let x = "designation";
+let obj3={
+    id:1,
+    ename:"john",
+
+};
+let obj4 ={
+    ...obj3,
+    company:"google",
+    salary:650000,
+    [x]:"Developer",
+};
+
+console.log(obj4);
+
+//modules
+
+//we have to use the import keyword only inside the module if we try to access the import without creating a module it gives an error
+
+
+//we can change nameed exports function name using 'as' keyword after importing by same name.
+import { Display as disp,add} from "./script.js";
+
+// Display();
+disp();
+
+let val = add(45,67);
+console.log(val);
+
+
+//named Exports
+
+import subtract from "./script.js";
+let result1=subtract(34,24);
+console.log(result1);
+
+
 
 
