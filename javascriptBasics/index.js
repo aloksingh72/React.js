@@ -100,6 +100,9 @@ import subtract from "./script.js";
 let result1=subtract(34,24);
 console.log(result1);
 
+//25-11-2024
+
+
 
 
 
