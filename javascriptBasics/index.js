@@ -33,7 +33,7 @@ console.log(l,m,o);
 //note -> jis value ko nhi lena hai usko skip kar denge uss pe variable assign nhi karenge 
 
 //Object destructing
-
+//taking out key value from a object
 let obj1 = {
     id:1,
     title:"laptop",
