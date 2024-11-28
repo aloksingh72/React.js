@@ -1,3 +1,9 @@
+
+/*component is of two types
+1.Class Based Component
+2. Function Based Component
+*/
+// It is an function based compoonent
 const Navbar =() =>{
     return (
         <ul>
