@@ -1,12 +1,14 @@
 
 import Navbar from "./Components/Navbar";
 import NavbarCBC from "./Components/NavbarCBC";
+import States from "./states/fbc/States";
 const App =() =>{
     return (
         <div>
-            <Navbar/>
-            <NavbarCBC/>
+            {/* <Navbar/> */}
+            {/* <NavbarCBC/> */}
             <h1>I am React Component</h1>
+            <States/>
         </div>
     );
 };
