@@ -20,7 +20,7 @@ const Counter = () =>{
         <div>
             <h1>❤️😊😊😁👍</h1>
             <div>{count}</div>
-            <button onClick={incrementHandler}>Increment</button>
+            <button onClick={incrementHandler}  >Increment</button>
             <button onClick={resetHandler}>Reset</button>
             <button onClick={decrementHandler}>Decrement</button>
 
