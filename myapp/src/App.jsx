@@ -1,6 +1,7 @@
 
 import Navbar from "./Components/Navbar";
 import NavbarCBC from "./Components/NavbarCBC";
+import Parent from "./props/Parent";
 import StateInCBC from "./states/cbc/StatesInCBC";
 import Counter from "./states/fbc/Counter";
 import States from "./states/fbc/States";
@@ -12,7 +13,9 @@ const App =() =>{
             <h1>I am React Component</h1>
             {/* <States/> */}
             {/* <Counter/> */}
-            <StateInCBC/>
+            {/* <StateInCBC/> */}
+            
+            <Parent/>
         </div>
     );
 };
