@@ -30,7 +30,7 @@ const ChildA =(x)=> {
     
   return (
     <div>
-        <h1>Child A component</h1>
+        <h1>Child A componentN</h1>
     </div>
   )
 }
