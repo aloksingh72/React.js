@@ -6,6 +6,9 @@ import StateInCBC from "./states/cbc/StatesInCBC";
 import Counter from "./states/fbc/Counter";
 import States from "./states/fbc/States";
 import PropsDrillingParent from "./propsdrilling/PropsDrillingParent";
+import InlineCSS from "./reactcss/InlineCSS";
+import Footer from "./reactcss/Footer";
+import Profile from "./images/Profile";
 const App =() =>{
     return (
         <div>
@@ -17,7 +20,10 @@ const App =() =>{
             {/* <StateInCBC/> */}
             
             {/* <Parent/> */}
-            <PropsDrillingParent/>
+            {/* <PropsDrillingParent/> */}
+            <InlineCSS/>
+            <Footer/>
+            <Profile/>
 
         </div>
     );

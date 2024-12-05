@@ -1,0 +1,12 @@
+/* 
+this is footer module css
+*/
+
+#footer{
+    background-color: orange;
+    color: blue;
+
+}
+.heading{
+  text-shadow: 0 0 5px gainsboro;  
+}
