@@ -9,21 +9,24 @@ import PropsDrillingParent from "./propsdrilling/PropsDrillingParent";
 import InlineCSS from "./reactcss/InlineCSS";
 import Footer from "./reactcss/Footer";
 import Profile from "./images/Profile";
+import FlipkartNav from "./Task1/FlipkartNav";
+
 const App =() =>{
     return (
         <div>
             {/* <Navbar/> */}
             {/* <NavbarCBC/> */}
-            <h1>I am React Component</h1>
+            {/* <h1>I am React Component</h1> */}
             {/* <States/> */}
             {/* <Counter/> */}
             {/* <StateInCBC/> */}
             
             {/* <Parent/> */}
             {/* <PropsDrillingParent/> */}
-            <InlineCSS/>
-            <Footer/>
-            <Profile/>
+            {/* <InlineCSS/> */}
+            {/* <Footer/> */}
+            {/* <Profile/> */}
+            <FlipkartNav/>
 
         </div>
     );
