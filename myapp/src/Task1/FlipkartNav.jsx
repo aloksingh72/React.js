@@ -4,6 +4,9 @@ import { FaRegCircleUser } from "react-icons/fa6";
 import { BsCart3 } from "react-icons/bs";
 import { CiShop } from "react-icons/ci";
 import { IoMdMore } from "react-icons/io";
+
+
+// Flipkart navigation bar componenet
 const FlipkartNav = ()=>{
     return (
         <nav>
