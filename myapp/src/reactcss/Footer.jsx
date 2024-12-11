@@ -5,6 +5,7 @@ const Footer = ()=>{
 return(
     <footer id={style.footer}>
 {/* 
+
 * if we are using module css then we have to provide id and classes inside style. 
 *style ke through id and class provide karenge
 */}
