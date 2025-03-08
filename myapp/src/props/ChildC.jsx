@@ -9,4 +9,5 @@ const ChildC = ({ setterFunc }) => {
     </div>
   );
 };
+//exporting the child component
 export default ChildC;
