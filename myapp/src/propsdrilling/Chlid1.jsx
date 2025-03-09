@@ -1,6 +1,6 @@
 import Child2 from "./Child2";
 const Child1 = (x) =>{
-
+//print into the console
 console.log(x);//{data:[{},{}]
 console.log(x.data)//[{},{}]
     return(
