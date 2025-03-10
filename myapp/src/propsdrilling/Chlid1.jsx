@@ -9,4 +9,5 @@ console.log(x.data)//[{},{}]
         </div>
     )
 };
+//exporting child
 export default Child1;
