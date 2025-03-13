@@ -1,3 +1,4 @@
+//importing child 2 
 import Child2 from "./Child2";
 const Child1 = (x) =>{
 //print into the console
